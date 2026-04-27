@@ -47,3 +47,35 @@ h1 {
   font-size: 1.2rem;
   color: #e9d5ff;
 }
+
+
+.player-box {
+  margin: 40px auto;
+  padding: 20px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+}
+
+.player-box h2 {
+  color: #c084fc;
+  margin-bottom: 20px;
+}
+
+.controles button {
+  background: #a855f7;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controles button:hover {
+  background: #9333ea;
+  transform: scale(1.1);
+}
